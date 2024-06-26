@@ -1,0 +1,6 @@
+To avoid collision with the other vehicles, the driver of the right-most vehicle 
+should choose to brake. The reason is that the driver is already at a speed of 50 km/h, 
+which is faster than the other vehicles. If the driver were to accelerate, they would 
+likely overtake the other vehicles, increasing the risk of collision. By braking, the 
+driver can slow down to a safe speed relative to the other vehicles, ensuring they maintain
+ a safe distance and avoid any potential accidents.

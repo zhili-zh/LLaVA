@@ -1,0 +1,40 @@
+ 
+ 
+python tryout.py --image-file "./imgs/1_119.png" --query \
+   "This image is a birdeye view of an intersection. You can see three green vehicles and two red vehicles in the image. \
+   The direction to the upper of image is North. \
+   The three green vehicles are driving west. \
+   The left-most green vehicle is at location (0, 0) and at speed 40 km/h. \
+   The middle green vehicle is at location (5, -3) and at speed 40 km/h. \
+   The right-most green vehicle is at location (50, 0) and at speed 40 km/h. \
+   The red vehicle on the top is driving south and is at location (-5, 50) and at speed 50 km/h. \
+   The red vehicle on the lower is driving north and is at location (4, -30) and at speed 50 km/h. \
+   For the right-most vehicle, if we want it to avoid collision with any other vehicle and it has only two actions, \
+   to accelerate and to brake, then what action would you choose for the driver of the right-most vehicle?" 
+
+
+# include goal position
+# reward / objective
+
+
+
+python tryout.py --image-file "./imgs/1_79.png" --query \
+     "This image is a birdeye view of an intersection. The ego vehicle is in yellow and is an autonomus vehicle.\
+      You can see a green car and a blue car and they are autonomous vehicles.\
+      You can also see two red vehicles and they are human-driven vehicles.\
+      I will provide you with numerical information of the vehicles and let you select behavior for the yellow vehicle.\
+      The direction to the top of image is North.\
+      The green vehicle with id:645 is at location (-7.05, 45.40), at speed 64.74 km/h. It is driving West.\
+      The blue vehicle with id:647 is at location (5.00, 48.89), at speed 57.51 km/h. It is driving West.\
+      The yellow vehicle with id:649 is at location (-32.44, 48.91), at speed 49.26 km/h. It is driving West.\
+      The red vehicle with id:651 is at location (5.20, 85.71), at speed 52.15 km/h. It is driving South.\
+      The red vehicle with id:652 is at location (-5.70, 24.38), at speed 52.04 km/h. It is driving North.\
+      For the yellow vehicle, I want you to choose an action from below choices so that it can avoid collision while driving as fast as possible. Here are the actions available:\
+      Action 1: change acceleration to -5.75 meter per square second.\
+      Action 2: change acceleration to 1.93 meter per square second.\
+      Action 3: change acceleration to -4.85 meter per square second.\
+      Action 4: change acceleration to 3.68 meter per square second.\
+      Action 5: change acceleration to -2.45 meter per square second.\
+      Action 6: change acceleration to 5.46 meter per square second.\
+      Action 7: change acceleration to -0.11 meter per square second.\
+      What action would you choose for of the yellow vehicle?" > new_out.txt 2> new_out.err

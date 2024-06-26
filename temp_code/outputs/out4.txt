@@ -1,0 +1,6 @@
+To avoid collision with any other vehicle, the driver of the right-most 
+vehicle should choose to brake. The reason is that the red vehicle on the 
+lower is driving north and is at location (4, -30) and at speed 50 km/h. 
+If the right-most vehicle continues to drive at its current speed and 
+direction, it will likely collide with the red vehicle on the lower. By braking, 
+the driver of the right-most vehicle can slow down and potentially avoid a collision.
